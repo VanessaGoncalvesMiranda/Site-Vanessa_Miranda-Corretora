@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&family=Open+Sans:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+/* Cabeçalho */
+header {
+    height: 550px;
+}
+
+.back {
+    background-image: url(Imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+div.rolagem {
+    background-color: #0d0c0c;
+    color: white;
+}
+
+div.rolagem a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.logo img {
+    padding-top: 3px;
+}
+
+.logo li {
+    margin: 0 10px;
+}
+
+header h5 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: left;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.link_ativo {
+    color: #ad9551;
+    font-weight: bolder;
+}
+
+.nav li{
+    margin: 0 10px;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.VanMir {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+.VanMir img {
+    width: 250px;
+    height: 130px;
+}
+
+/* Fim do cabeçalho */
+
+
+/* Corpo do site */
+.chamada {
+    font-family: 'Comfortaa', cursive;
+    color: #363636;
+    margin: 50px 40px;
+}
+
+article {
+    margin: 30px 80px 40px 80px;
+    color: #363636;
+    line-height: 28px;
+}
+
+article h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.construir {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 40px;
+    line-height: 34px;
+}
+
+.duvidas {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.chamada h3 {
+    font-size: 30px;
+}
+
+.chamada h4 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
+
+/* Imagens com os tipos de seguros */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #ad9551;
+}
+
+.card-container {
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card img{
+    height: 430px;
+    width: 448px;
+    object-fit: cover;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+.card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.equipe {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.equipe img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.duvidas_dourado {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 40px;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    background-color: #ad9551;
+}
+
+
+/* Formulário */
+form {
+    margin-top:30px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+form h2, p {
+    margin: 15px 0;
+}
+
+form ::placeholder{
+    text-align: left;
+}
+
+.items_form input, textarea {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.dourado {
+    background-color: #ad9551;
+}
+
+.vazia {
+    background-color: #ad9551;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.dourado_2 {
+    background-color: #ad9551;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 10px;
+    height: 80px;
+}
+
+
+/* Mapa */
+
+.mapa p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;    
+}
+
+
+/* Rodapé */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 10px 20px;
+    color: #374151;
+    background-color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+footer a {
+    font-size: 18px;
+    color: #374151;
+    font-weight:bold;
+}
+
+footer ul{
+    padding-left: 10px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+footer li {
+    list-style: none;
+}
+
+
+/* Página Sobre */
+
+.header_sobre {
+    background-image: url(Imagens/Sobre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+h3 span {
+    color: #7f6000;
+    font-size: 32px;
+    font-family: 'Times New Roman', Arial;
+    font-weight: 700;
+    vertical-align: baseline;
+}
+
+.sobre_p {
+    color: #0d0c0c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: baseline;
+    margin: 30px 100px;
+}
+
+.voltar {
+    display: flex;
+    justify-content: right;   
+}
+
+div .voltar a {
+    color: #bb8e06;
+}
